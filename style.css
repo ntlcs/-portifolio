@@ -192,3 +192,56 @@ body {
     text-align: center;
     background-color: #333;
 }
+
+.projeto_novo_projeto2 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #f3f3ef;
+    font-size: 1rem;
+}
+.projeto_imagem2 img {
+    width: 100%; /* ou a porcentagem desejada */
+    height: auto; /* Isso ajuda a manter a proporção da imagem */
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    margin: 10% 35% 5%;
+}
+.projeto_titulo2{
+    color: #f3f3ef;
+    font-size: 2.25rem;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2rem;
+    margin-left: 40%;
+}
+
+.projeto_descricao2{
+    text-align: justify;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1rem; /* Tamanho da fonte */
+    line-height: 1.5;
+    width: 65%; /* Ajusta a largura para 200 pixels */
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+    padding: 50px; /* Adicione o preenchimento desejado, se necessário */
+   
+    
+
+
+}
+.link_projeto2{
+    text-align: justify;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1rem; /* Tamanho da fonte */
+    line-height: 1.5;
+    width: 65%; /* Ajusta a largura para 200 pixels */
+    height: 50%;
+    margin-left: 45%;
+    margin-top: 0%;
+    padding: 50px; /* Adicione o preenchimento desejado, se necessário */
+   
+
+}
