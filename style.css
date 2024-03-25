@@ -110,6 +110,9 @@ body {
     color: #000000; /* Adicione essa linha para manter a cor do texto ao passar o mouse */
 }
 
+.minha_foto{
+    width: 50%;
+}
 
 .icone-social {
     width: 2.5rem;
@@ -170,7 +173,11 @@ body {
     font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
     font-size: 2rem;
+    text-align: center;
+    margin-left: -10%;
+    
 }
+
 .decodificador_texto{
     text-align: justify;
     font-family: 'Krona One', sans-serif;
@@ -178,7 +185,7 @@ body {
     line-height: 1.5;
     width: 75%; /* Ajusta a largura para 200 pixels */
     height: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 2%;
     
 
@@ -219,7 +226,7 @@ body {
     font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
     font-size: 2rem;
-    margin-left: 30%;
+    margin-left: 20%;
     gap:32px;
 }
 
@@ -230,7 +237,7 @@ body {
     line-height: 1.5;
     width: 70%; /* Ajuste da largura */
     height: 50%;
-    margin-left: 25%; /* Ajuste da margem esquerda */
+    margin-left: 15%; /* Ajuste da margem esquerda */
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -269,4 +276,13 @@ body {
     }
 
 
+}
+@media (max-width: 1200px) {
+    .icone-social {
+        margin-left: 1rem; /* Ajuste conforme necessário */
+    }
+    
+    .apresentacao__links__link:hover {
+        background-color: #eefd22; /* Mantenha a cor de fundo ao passar o mouse */
+    }
 }
