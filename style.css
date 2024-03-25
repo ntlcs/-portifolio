@@ -154,18 +154,15 @@ body {
 
 
 .projeto img {
-    width: 100%; /* Use width em vez de max-width para ocupar 100% da largura do contêiner pai */
+    width: 80%; /* Definir a largura como 100% do contêiner pai */
     max-height: 100%; /* Adicione uma altura máxima para garantir proporções corretas */
-    display: block; /* Remova qualquer espaço adicional causado pelo display inline */
-    margin:  0; /* Centralize horizontalmente no contêiner pai */
+    display: block;
+    margin: 0 auto; /* Centralize horizontalmente */
     border: 5px solid #ddd;
-    margin-left: 20%;
     border-radius: 5px;
     margin-bottom: 10px;
-    margin-right: 50%;
-   
-    
 }
+
 
 
 .decodificador_titulo {
@@ -176,12 +173,14 @@ body {
 }
 .decodificador_texto{
     text-align: justify;
+    font-family: 'Krona One', sans-serif;
     font-size: 1rem; /* Tamanho da fonte */
     line-height: 1.5;
     width: 75%; /* Ajusta a largura para 200 pixels */
     height: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 2%;
+    
 
 
 }
@@ -203,45 +202,73 @@ body {
     font-size: 1rem;
 }
 .projeto_imagem2 img {
-    width: 100%; /* ou a porcentagem desejada */
-    height: auto; /* Isso ajuda a manter a proporção da imagem */
+    max-width: 80%; /* Definir a largura máxima como 100% do contêiner pai */
+    height: auto; /* Manter a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centralizar horizontalmente */
     border: 5px solid #ddd;
     border-radius: 5px;
-    margin: 10% 35% 5%;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    gap:32px;
 }
+
+
 .projeto_titulo2{
     color: #f3f3ef;
     font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
     font-size: 2rem;
-    margin-left: 35%;
+    margin-left: 30%;
+    gap:32px;
 }
 
-.projeto_descricao2{
+.projeto_descricao2 {
     text-align: justify;
     font-family: 'Krona One', sans-serif;
-    font-size: 1rem; /* Tamanho da fonte */
+    font-size: 1rem;
     line-height: 1.5;
-    width: 65%; /* Ajusta a largura para 200 pixels */
+    width: 70%; /* Ajuste da largura */
     height: 50%;
-    margin-left: 25%;
-    margin-top: 0%;
-    padding: 50px; /* Adicione o preenchimento desejado, se necessário */
-   
-    
-
-
+    margin-left: 25%; /* Ajuste da margem esquerda */
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 80%;
 }
+
+
+
+
 .link_projeto2{
     text-align: justify;
     font-family: 'Krona One', sans-serif;
     font-size: 1rem; /* Tamanho da fonte */
-    line-height: 1.5;
+    line-height: 3;
     width: 65%; /* Ajusta a largura para 200 pixels */
     height: 50%;
     margin-left: 45%;
-    margin-top: 0%;
+    margin-top: 50%;
+    gap:32px;
     padding: 50px; /* Adicione o preenchimento desejado, se necessário */
    
+
+}
+@media (max-width:1200px){
+    .apresentacao {
+        flex-direction:column-reverse;
+}
+    .projeto {
+        flex-direction:column;
+    }
+
+    .projeto_novo_projeto2
+    {
+        flex-direction:column;
+    }
+
+
+
 
 }
