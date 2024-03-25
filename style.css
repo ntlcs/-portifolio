@@ -251,7 +251,7 @@ body {
     margin-left: 45%;
     margin-top: 50%;
     gap:32px;
-    padding: 50px; /* Adicione o preenchimento desejado, se necessário */
+    padding: 50px; 
    
 
 }
@@ -267,8 +267,6 @@ body {
     {
         flex-direction:column;
     }
-
-
 
 
 }
